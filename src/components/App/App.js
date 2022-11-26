@@ -1,8 +1,14 @@
-import { Header } from '../Header/Header'
+import { Header } from '../Header/Header';
+import { Footer } from '../Footer/Footer';
+import { Main } from '../Main/Main';
 
 function App (){
   return (
-    <Header/>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   )
 }
 

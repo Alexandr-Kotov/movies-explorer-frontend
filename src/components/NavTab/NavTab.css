@@ -1,0 +1,20 @@
+.navtab{
+  background-color: #272727;
+}
+
+.navtab__container{
+  display: flex;
+  justify-content: center
+}
+
+.navtab__link{
+  margin: 24px 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  align-items: center;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
