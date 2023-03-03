@@ -1,9 +1,9 @@
-.aboutproject{
+.about-project{
   background-color: #202020;
   padding: 0 70px;
 }
 
-.aboutproject__title{
+.about-project__title{
   font-weight: 400;
   font-size: 22px;
   line-height: 27px;
@@ -13,20 +13,20 @@
   padding: 110px 0 23px;
 }
 
-.aboutproject__container{
+.about-project__container{
   border-top: 1px solid #DADADA;
   display: flex;
 }
 
-.aboutproject__table{
+.about-project__table{
   max-width: 550px;
 }
 
-.aboutproject__table:last-of-type{
+.about-project__table:last-of-type{
   margin-left: 40px;
 }
 
-.aboutproject__subtitle{
+.about-project__subtitle{
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -35,7 +35,7 @@
   margin: 70px 0 26px;
 }
 
-.aboutproject__text{
+.about-project__text{
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -43,12 +43,12 @@
   margin: 0 0 110px 0;
 }
 
-.aboutproject__graphic{
+.about-project__graphic{
   display: flex;
   padding-bottom: 110px;
 }
 
-.aboutproject__graphic-subtitle{
+.about-project__graphic-subtitle{
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -60,7 +60,7 @@
   margin: 0;
 }
 
-.aboutproject__graphic-text{
+.about-project__graphic-text{
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -70,115 +70,115 @@
   padding-top: 14px;
 }
 
-.aboutproject__graphic-subtitle_backend{
+.about-project__graphic-subtitle_backend{
   color: #000000;
   background-color: #3DDC84;
 }
 
-.aboutproject__graphic-subtitle_frontend{
+.about-project__graphic-subtitle_frontend{
   background-color: #303030;
 }
 
-.aboutproject__graphic-backend{
+.about-project__graphic-backend{
   width: calc(100%/4);
 }
 
-.aboutproject__graphic-frontend{
+.about-project__graphic-frontend{
   width: calc(100%);
 }
 
 @media screen and (max-width: 768px){
-  .aboutproject{
+  .about-project{
     padding: 0 50px;
   }
 
-  .aboutproject__table{
+  .about-project__table{
     max-width: 319px;
   }
 
-  .aboutproject__title{
+  .about-project__title{
     padding: 90px 0 23px;
   }
   
-  .aboutproject__text{
+  .about-project__text{
     margin: 0 0 93px 0;
     font-size: 12px;
     line-height: 18px;
   }
 
-  .aboutproject__subtitle{
+  .about-project__subtitle{
     margin: 70px 0 22px;
   }
 
-  .aboutproject__graphic-text{
+  .about-project__graphic-text{
     font-weight: 400;
   }
 
-  .aboutproject__graphic{
+  .about-project__graphic{
     padding-bottom: 90px;
   }
   
-  .aboutproject__table:last-of-type{
+  .about-project__table:last-of-type{
     margin-left: 30px;
   }
   
-  .aboutproject__graphic-backend{
+  .about-project__graphic-backend{
     width: calc(100%/3.77);
   }
 }
 
 @media screen and (max-width: 320px){
-  .aboutproject{
+  .about-project{
     padding: 0 18px;
   }
 
-  .aboutproject__title{
+  .about-project__title{
     font-size: 18px;
     line-height: 22px;
     padding: 70px 0 28px;
   }
   
-  .aboutproject__container{
+  .about-project__container{
     display: block;
   }
 
-  .aboutproject__subtitle{
+  .about-project__subtitle{
     font-size: 18px;
     line-height: 22px;
     margin: 0 0 16px;
   }
 
-  .aboutproject__text{
+  .about-project__text{
     margin: 0;
     font-size: 11px;
     line-height: 16px;
   }
 
-  .aboutproject__table{
+  .about-project__table{
     margin-top: 60px;
   }
 
-  .aboutproject__table:last-of-type{
+  .about-project__table:last-of-type{
     margin: 56px 0 60px;
   }
 
-  .aboutproject__graphic-subtitle{
+  .about-project__graphic-subtitle{
     font-size: 11px;
     line-height: 13px;
     height: 35px;
   }
 
-  .aboutproject__graphic-text{
+  .about-project__graphic-text{
     font-size: 11px;
     line-height: 13px;
     padding-top: 10px;
   }
 
-  .aboutproject__graphic{
+  .about-project__graphic{
     padding-bottom: 70px;
   }
 
-  .aboutproject__graphic-backend{
+  .about-project__graphic-backend{
     width: calc(100%/1.87);
   }
 }

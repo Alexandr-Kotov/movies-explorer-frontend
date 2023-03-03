@@ -4,14 +4,14 @@ import './NavTab.css'
 
 export const NavTab = () => {
   return (
-    <nav className='navtab'>
-      <NavLink className='navtab__link'>
+    <nav className='nav-tab'>
+      <NavLink className='nav-tab__link'>
         О проекте
       </NavLink>
-      <NavLink className='navtab__link'>
+      <NavLink className='nav-tab__link'>
         Технологии
       </NavLink>
-      <NavLink className='navtab__link'>
+      <NavLink className='nav-tab__link'>
         Студент
       </NavLink>
     </nav>
