@@ -1,0 +1,22 @@
+.movies{
+  background-color: #202020;
+  padding-bottom: 80px;
+}
+
+.movies__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: #202020;
+  border: 1px solid #424242;
+  width: 320px;
+  height: 36px;
+  border-radius: 10px;
+  padding: 0;
+  cursor: pointer;
+}

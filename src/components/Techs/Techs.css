@@ -3,6 +3,11 @@
   padding: 0 70px;
 }
 
+.techs__content{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .techs__title{
   font-weight: 400;
   font-size: 22px;

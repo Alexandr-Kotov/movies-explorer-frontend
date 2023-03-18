@@ -1,0 +1,8 @@
+.authform__submit-button_register{
+  margin-top: 0;
+}
+
+.register__container_input{
+  display: flex;
+  flex-direction: column;
+}
