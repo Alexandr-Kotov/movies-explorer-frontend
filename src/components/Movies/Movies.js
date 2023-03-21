@@ -8,7 +8,7 @@ export const Movies = () => {
   return (
     <div className='movies'>
       <SearchForm />
-      <MoviesCardList cards={MoviesCardFilm} />
+      <MoviesCardList cards={MoviesCardFilm} savedFilm={false} />
       <button className='movies__button' type='button'>Ещё</button>
     </div>
   )

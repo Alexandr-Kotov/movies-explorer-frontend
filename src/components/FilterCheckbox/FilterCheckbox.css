@@ -4,10 +4,6 @@
   margin: 26px auto 38px;
 }
 
-.filter-checkbox__label{
-  /* margin: 26px 0 0; */
-}
-
 .filter-checkbox__input{
 display: none;
 }
@@ -50,4 +46,22 @@ display: none;
 .filter-checkbox__slider::before {
   background-color: #2BE080;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .filter-checkbox{
+    margin: 26px auto 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .filter-checkbox__text{
+    font-size: 11px;
+    line-height: 18px;
+    margin: 2px 0 0 13px; 
+  }
+
+  .filter-checkbox{
+    margin: 26px auto 64px;
+  }
 }

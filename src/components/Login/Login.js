@@ -10,6 +10,7 @@ export const Login = () => {
       hint='Ещё не зарегистрированы?'
       link='Регистрация'
       feedback='/sign-up'
+      indent={false}
     />
   )
 }

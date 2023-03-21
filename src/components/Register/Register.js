@@ -4,12 +4,15 @@ import { AuthForm } from '../AuthForm/AuthForm';
 
 export const Register = () => {
   return (
+    <>
     <AuthForm 
       title='Добро пожаловать!'
       buttonLabel='Зарегистрироваться'
       hint='Уже зарегистрированы?'
       link='Войти'
       feedback='/sign-in'
+      text='Что-то пошло не так...'
+      indent={true}
       input={
         <div className='register__container_input'>
           <label className='authform__label'>Имя</label>
@@ -17,6 +20,6 @@ export const Register = () => {
         </div>
       }
     />
-    
+    </>
   )
 }

@@ -8,3 +8,47 @@
   max-width: 1140px;
   border-top: 1px solid #AAAAAA;
 }
+
+@media screen and (max-width: 1212px) {
+  .movies-card-list{
+    grid-template-columns: repeat(3, 270px);
+    max-width: 850px;
+  }
+}
+
+@media screen and (max-width: 904px) {
+  .movies-card-list{
+    grid-template-columns: repeat(2, 270px);
+    max-width: 630px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .movies-card-list{
+    grid-template-columns: repeat(2, 339px);
+    grid-column-gap: 30px;
+    grid-row-gap: 36px;
+    max-width: 708px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .movies-card-list{
+    grid-template-columns: repeat(1, 339px);
+    grid-column-gap: 30px;
+    grid-row-gap: 36px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .movies-card-list{
+    padding: 50px 0 80px;
+    grid-template-columns: repeat(1, 300px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    max-width: 292px;
+    margin: 0 10px ;
+  }
+}

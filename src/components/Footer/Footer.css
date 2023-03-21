@@ -1,6 +1,6 @@
 .footer{
   background-color: #202020;
-  padding: 0 70px;  
+  padding: 0 70px;
 }
 
 .footer__content{
@@ -15,7 +15,7 @@
   line-height: 16px;
   text-align: center;
   color: #8B8B8B;
-  padding: 79px 0 20px;
+  padding: 89px 0 20px;
 }
 
 .footer__container{
@@ -47,6 +47,10 @@
   .footer{
     padding: 0 30px;  
   }
+
+  .footer__text{
+    padding: 89px 0 21px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -57,7 +61,7 @@
   .footer__text{
     font-size: 12px;
     line-height: 15px;
-    padding: 79px 0 21px;
+    padding: 89px 0 21px;
   }
 
   .footer__container{

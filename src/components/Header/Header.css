@@ -39,7 +39,7 @@
 
 .header__navigation_black{
   width: 212px;
-  padding-left: 64px;
+  padding-right: 364px;
 }
 
 .navigation-link{
@@ -48,6 +48,14 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+}
+
+.header__burger{
+  display: none;
+}
+
+.navigation-link__movies_mobile{
+  display: none;
 }
 
 .navigation-link_green{
@@ -102,15 +110,114 @@
   align-items: center
 }
 
+.header__burger_container{
+  display: flex;
+  align-items: center;
+}
+
+.header__burger_button-cross{
+  display: none;
+}
+
+.header__burger_label{
+  display: none;
+}
+
+.header__burger_cross{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__navigation_black{
+    padding-right: 264px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__navigation_black{
+    padding-right: 180px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header__container{
     padding: 0 30px;
+  }
+
+  .navigation-link__movies_active{
+    text-decoration: underline 2px;
+    text-underline-offset: 9px;
+  }
+  
+  #burger:checked + label +div{
+    transform: translateX(0);
+  }
+
+  .header__burger_label{
+    background-image: url(../../images/burger.svg);
+    background-position: center;
+    width: 40px;
+    height: 43px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__burger_container{
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    background: #202020;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 520px;
+    height: 100%;
+    transition: 1s ease-in-out;
+  }
+
+  .navigation-link__movies_mobile{
+    display: block;
+  }
+
+  .header__navigation_black{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 159px auto 593px;
+    width: 340px;
+  }
+
+  .navigation-link__movies{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .navigation-link__movies:last-child{
+    margin-left: 0;
+  }
+
+  .header__burger_label-cross{
+    background-image: url('../../images/cross.svg');
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    position: absolute;
+    right: 29px;
+    top: 29px;
+    cursor: pointer;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__container{
     padding: 0 14px;
+  }
+
+  .header__burger_label{
+    background-size: 34px 39px;
   }
 
   .navigation-link{
@@ -122,5 +229,24 @@
     height: 26px;
     border-radius: 3px;
     margin-left: 14px;
+  }
+
+  .header__burger_container{
+    width: 100vw;
+    z-index: 2;
+  }
+
+  .header__navigation_black{
+    margin: 144px auto 420px;
+    width: 300px;
+  }
+
+  .header__burger_label-cross{
+    right: 19px;
+    top: 19px;
+  }
+  
+  .navigation-link__movies{
+    margin-bottom: 24px;
   }
 }

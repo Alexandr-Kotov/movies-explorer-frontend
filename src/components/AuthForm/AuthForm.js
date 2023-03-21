@@ -3,7 +3,7 @@ import './AuthForm.css';
 import logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
 
-export const AuthForm = ({ title, buttonLabel, hint, link, input, feedback }) => {
+export const AuthForm = ({ title, buttonLabel, hint, link, input, feedback, text, indent }) => {
   return (
     <main className='authform'>
       <div className='authform__container'>
@@ -16,7 +16,8 @@ export const AuthForm = ({ title, buttonLabel, hint, link, input, feedback }) =>
           <label className='authform__label'>E-mail</label>
           <input className='authform__input' type='email' name='email' required/>
           <label className='authform__label'>Пароль</label>
-          <input className='authform__input' type='password' name='password' required />
+          <input className='authform__input authform__input_password' type='password' name='password' required />
+          <p className={`authform__text ${indent ? 'authform__text_indent' : ''}`} >{text}</p>
           <button className="authform__submit-button" type="submit">
             {buttonLabel}
           </button>

@@ -11,7 +11,6 @@
   align-items: center;
   border: 1.5px solid #AAAAAA;
   border-radius: 8px;
-  
 }
 
 .searchform__input_submit{
@@ -45,4 +44,33 @@
 
 .searchform__input_search::-webkit-search-cancel-button{
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .searchform{
+    padding: 70px 30px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .searchform{
+    padding: 70px 14px 0;
+  }
+
+  .searchform__form{
+    margin: 0 auto;
+    width: 292px;
+    height: 56px;
+  }
+
+  .searchform__input_submit{
+    min-width: 75px;
+    height: 44px;
+  }
+
+  .searchform__input_search{
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 12px;
+  }
 }

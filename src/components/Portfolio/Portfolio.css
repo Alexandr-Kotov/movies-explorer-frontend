@@ -49,6 +49,7 @@
   width: 29px;
   height: 60px;
   object-fit: none;
+  margin-top: 5px;
 }
 
 .portfolio__item:last-child{
@@ -91,9 +92,12 @@
   }
 
   .portfolio__image{
-    width: 18px;
-    height: 28px;
-    object-fit: scale-down;
+    width: 10px;
+    height: 11px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    object-fit: unset;
   }
   
   .portfolio__item:last-child{
