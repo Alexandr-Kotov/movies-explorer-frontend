@@ -4,7 +4,7 @@ import photo from '../../images/photo.jpg'
 
 export const AboutMe = () => {
   return (
-    <div className='about-me' id='about-me'>
+    <section className='about-me' id='about-me'>
       <div className='about-me__content'>
         <h2 className='about-me__title'>Студент</h2>
         <div className='about-me__container'>
@@ -19,6 +19,6 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

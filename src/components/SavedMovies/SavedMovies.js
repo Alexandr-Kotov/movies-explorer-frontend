@@ -6,9 +6,9 @@ import { MoviesCardFilmSave } from '../../utils/constants';
 
 export const SavedMovies = () => {
   return (
-    <div className='movies'>
+    <section className='movies'>
       <SearchForm />
       <MoviesCardList cards={MoviesCardFilmSave}  savedFilm={true} />
-    </div>
+    </section>
   )
 }

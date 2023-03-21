@@ -4,7 +4,7 @@ import arrow from '../../images/portfolio.svg'
 
 export const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <section className='portfolio'>
       <div className='portfolio__content'>
         <h2 className='portfolio__title'>Портфолио</h2>
         <ul className='portfolio__list'>
@@ -28,6 +28,6 @@ export const Portfolio = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
