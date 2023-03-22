@@ -16,6 +16,7 @@ display: none;
   background-color: #343434;
   border-radius: 20px;
   transition: .4s;
+  cursor: pointer;
 }
 
 .filter-checkbox__slider::before{

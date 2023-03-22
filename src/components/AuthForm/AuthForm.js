@@ -1,11 +1,11 @@
 import React from 'react';
 import './AuthForm.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo.svg';
 import { Link } from 'react-router-dom';
 
 export const AuthForm = ({ title, buttonLabel, hint, link, input, feedback, text, indent }) => {
   return (
-    <main className='authform'>
+    <section className='authform'>
       <div className='authform__container'>
         <Link to='/' className='authform__logo-link'>
           <img src={logo} alt='Логотип' className='authform__logo' />
@@ -29,6 +29,6 @@ export const AuthForm = ({ title, buttonLabel, hint, link, input, feedback, text
           </p>
         </form>
       </div>
-    </main>
+    </section>
   )
 }

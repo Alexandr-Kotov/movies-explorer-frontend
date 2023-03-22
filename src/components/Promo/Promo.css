@@ -1,5 +1,5 @@
 .promo{
-  background: url('../../images/promo.png') #073042 no-repeat center 82px;
+  background: url('../../images/promo.svg') #073042 no-repeat center 82px;
 }
 
 
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
   .promo{
-    background: url('../../images/promo.png') #073042 no-repeat center 224px;
+    background: url('../../images/promo.svg') #073042 no-repeat center 224px;
   }
   
   .promo__title{
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .promo{
-    background: url('../../images/promo.png') #073042 no-repeat center 142px;
+    background: url('../../images/promo.svg') #073042 no-repeat center 142px;
     background-size: 248px;
   }
   

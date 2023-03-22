@@ -29,14 +29,14 @@
   width: 410px;
 }
 
-.profile__container_name{
+.profile__container-name{
   display: flex;
   justify-content: space-between;
   padding-bottom: 16px;
   border-bottom: 1px solid #424242;
 }
 
-.profile__container_mail{
+.profile__container-mail{
   padding-top: 18px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@
     margin: 96px auto 211px;
   }
 
-  .profile__container_mail{
+  .profile__container-mail{
     padding-top: 18px;
   }
 }

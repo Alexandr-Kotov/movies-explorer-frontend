@@ -5,10 +5,12 @@ import { FilterCheckbox } from '../FilterCheckbox/FilterCheckbox';
 export const SearchForm = () => {
   return (
     <div className='searchform'>
-      <form className='searchform__form'>
-        <input className='searchform__input_search' type='search' placeholder='Фильм' />
-        <input className='searchform__input_submit' type='submit' value='Поиск' />
-      </form>
+      <div className='searchform__container'>
+        <form className='searchform__form'>
+          <input className='searchform__input' type='search' placeholder='Фильм' required />
+          <button className='searchform__submit' type='submit'>Поиск</button>
+        </form>
+      </div>
       <FilterCheckbox />
     </div>
   )

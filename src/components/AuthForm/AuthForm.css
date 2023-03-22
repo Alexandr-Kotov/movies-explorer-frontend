@@ -106,7 +106,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .authform__container{
     padding-top: 0;
   }
@@ -131,7 +131,7 @@
     width: 260px;
     font-size: 12px;
     line-height: 15px;
-    margin: 309px auto 0;
+    margin: 303px auto 0;
   }
 
   .authform__hint{

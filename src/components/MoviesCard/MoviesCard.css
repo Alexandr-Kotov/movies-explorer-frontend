@@ -1,5 +1,5 @@
-.movies-card{
-  max-width: 270px;
+.card{
+  width: 270px;
   height: 218px;
   background: #222222;
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.05);
@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 
-.movies-card__image{
+.card__image{
   width: 270px;
   height: 151px;
   object-fit: cover;
@@ -16,20 +16,20 @@
   border-top-right-radius: 10px;
 }
 
-.movies-card__container{
+.card__container{
   display: flex;
   justify-content: space-between;
   margin: 13px 12px 10px;
 }
 
-.movies-card__title{
+.card__title{
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
   color: #FFFFFF;
 }
 
-.movies-card__button{
+.card__button{
   width: 18px;
   height: 18px;
   border: none;
@@ -43,18 +43,18 @@
   cursor: pointer;
 }
 
-.movies-card__button_saved{
+.card__button_saved{
   background-image: url('../../images/movies-cross.svg');
   background-color: #222222;
 }
 
-.movies-card__button_active{
+.card__button_active{
   background-color: #2BE080;
   width: 16px;
   height: 16px;
 }
 
-.movies-card__time{
+.card__time{
   font-weight: 400;
   font-size: 11px;
   line-height: 13px;
@@ -64,24 +64,24 @@
 }
 
 @media screen and (max-width: 768px) {
-  .movies-card{
-    max-width: 339px;
+  .card{
+    width: 339px;
     height: 257px;
   }
 
-  .movies-card__image{
+  .card__image{
     width: 339px;
     height: 190px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .movies-card{
+@media screen and (max-width: 767px) {
+  .card{
     max-width: 300px;
     height: 235px;
   }
 
-  .movies-card__image{
+  .card__image{
     width: 300px;
     height: 168px;
   }

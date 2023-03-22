@@ -99,7 +99,20 @@
   }  
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 520px) {
+  .techs__list{
+    display: grid;
+    grid-template-columns: 84px 84px;
+    gap: 10px;
+  }
+
+  .techs__item{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 336px) {
   .techs{
     padding: 0 18px;
   }
@@ -132,9 +145,5 @@
     gap: 10px;
     margin: 0;
     padding: 50px 0 70px;
-  }
-
-  .techs__item{
-    margin: 0;
   }
 }

@@ -30,7 +30,7 @@
   margin: 24px 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 336px) {
   .nav-tab__item{
     margin: 22px 24px 22px 0;
     height: 16px;

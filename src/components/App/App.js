@@ -16,15 +16,17 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path='/' element={ <Main /> }/>
-        <Route path='/movies' element={ <Movies /> }/>
-        <Route  path='/saved-movies' element={ <SavedMovies /> }/>
-        <Route path='/profile' element={ <Profile profile={ProfileAvatar} /> } />
-        <Route path='/sign-in' element={ <Login /> }/>
-        <Route path='/sign-up' element={ <Register /> }/>
-        <Route path='*' element={ <Erorr erorr={Erorr404} /> } />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={ <Main /> }/>
+          <Route path='/movies' element={ <Movies /> }/>
+          <Route  path='/saved-movies' element={ <SavedMovies /> }/>
+          <Route path='/profile' element={ <Profile profile={ProfileAvatar} /> } />
+          <Route path='/sign-in' element={ <Login /> }/>
+          <Route path='/sign-up' element={ <Register /> }/>
+          <Route path='*' element={ <Erorr erorr={Erorr404} /> } />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

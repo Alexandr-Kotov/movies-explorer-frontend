@@ -4,7 +4,7 @@ import { MoviesCard } from '../MoviesCard/MoviesCard';
 
 export function MoviesCardList ({ cards, savedFilm }) {
 
-  const section = () => {
+  const li = () => {
     if (cards.length > 0) {
       return cards.map((card) => (
         <MoviesCard
@@ -17,8 +17,10 @@ export function MoviesCardList ({ cards, savedFilm }) {
   }
 
   return (
-    <section className='movies-card-list'>
-      {section()}
+    <section className='movies-card'>
+      <ul className='movies-card__list'>
+        {li()}
+      </ul>
     </section>
   )
 }

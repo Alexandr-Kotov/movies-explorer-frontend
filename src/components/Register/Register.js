@@ -14,7 +14,7 @@ export const Register = () => {
       text='Что-то пошло не так...'
       indent={true}
       input={
-        <div className='register__container_input'>
+        <div className='authform__container-input'>
           <label className='authform__label'>Имя</label>
           <input className='authform__input' type='text' name='name' required/>
         </div>

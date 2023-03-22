@@ -6,11 +6,11 @@ export const Profile = ({ profile }) => {
     <section className='profile'>
       <h2 className='profile__title'>Привет, {profile.name}!</h2>
       <div className='profile__container'>
-        <div className='profile__container_name'>
+        <div className='profile__container-name'>
           <p className='profile__text'>Имя</p>
           <p className='profile__text'>{profile.name}</p>
         </div>
-        <div className='profile__container_mail'>
+        <div className='profile__container-mail'>
           <p className='profile__text'>E-mail</p>
           <p className='profile__text'>{profile.mail}</p>
         </div>
