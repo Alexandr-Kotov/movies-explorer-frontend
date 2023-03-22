@@ -1,0 +1,88 @@
+.card{
+  width: 270px;
+  height: 218px;
+  background: #222222;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image{
+  width: 270px;
+  height: 151px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__container{
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 12px 10px;
+}
+
+.card__title{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.card__button{
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../images/movies-circle.svg');
+  background-color: #313131;
+  transition: opacity .4s linear;
+  cursor: pointer;
+}
+
+.card__button_saved{
+  background-image: url('../../images/movies-cross.svg');
+  background-color: #222222;
+}
+
+.card__button_active{
+  background-color: #2BE080;
+  width: 16px;
+  height: 16px;
+}
+
+.card__time{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #8B8B8B;
+  margin-left: 12px;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .card{
+    width: 339px;
+    height: 257px;
+  }
+
+  .card__image{
+    width: 339px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card{
+    max-width: 300px;
+    height: 235px;
+  }
+
+  .card__image{
+    width: 300px;
+    height: 168px;
+  }
+}

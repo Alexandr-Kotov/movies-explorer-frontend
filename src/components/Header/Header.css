@@ -1,0 +1,252 @@
+.header{
+ 
+}
+
+.header__container{
+  padding: 0 70px;
+}
+
+.header__container_blue{
+  background-color: #073042;
+}
+
+.header__container_black{
+  background-color: #202020;
+}
+
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header__content_blue{
+
+}
+
+.header__logo-link{
+  width: 38px;
+  height: 38px;
+  margin: 18px 0;
+}
+
+.header__navigation{
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation-black{
+  width: 212px;
+  padding-right: 364px;
+}
+
+.navigation-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.header__burger{
+  display: none;
+}
+
+.header__movies-link_mobile{
+  display: none;
+}
+
+.navigation-link_green{
+  color: #000000;
+  margin: auto;
+}
+
+.navigation-link-account{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__navigation-container{
+  width: 76px;
+  height: 32px;
+  background: #3DDC84;
+  border-radius: 3px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.header__movies-link{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__movies-link:last-child{
+  margin-left: 16px;
+}
+
+.header__logo-account{
+  margin: auto;
+}
+
+.header__logo-link-account{
+  display: flex;
+  width: 26px;
+  height: 30px;
+  background-color: #313131;
+  border-radius: 4px;
+  margin-left: 17px;
+}
+
+.header__container-account{
+  display: flex;
+  align-items: center
+}
+
+.header__burger-container{
+  display: flex;
+  align-items: center;
+}
+
+.header__burger_button-cross{
+  display: none;
+}
+
+.header__burger-label{
+  display: none;
+}
+
+.header__burger_cross{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__navigation-black{
+    padding-right: 264px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__navigation-black{
+    padding-right: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__container{
+    padding: 0 30px;
+  }
+
+  .header__movies-link_active{
+    text-decoration: underline 2px;
+    text-underline-offset: 9px;
+  }
+  
+  #burger:checked + label +div{
+    transform: translateX(0);
+  }
+
+  .header__burger-label{
+    background-image: url(../../images/burger.svg);
+    background-position: center;
+    width: 40px;
+    height: 43px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__burger-container{
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    background: #202020;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 520px;
+    height: 100%;
+    transition: 1s ease-in-out;
+    z-index: 2;
+  }
+
+  .header__movies-link_mobile{
+    display: block;
+  }
+
+  .header__navigation-black{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 159px auto 593px;
+    width: 340px;
+  }
+
+  .header__movies-link{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  .header__movies-link:last-child{
+    margin-left: 0;
+  }
+
+  .header__burger-cross{
+    background-image: url('../../images/cross.svg');
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    position: absolute;
+    right: 29px;
+    top: 29px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__container{
+    padding: 0 14px;
+  }
+
+  .header__burger-label{
+    background-size: 34px 39px;
+  }
+
+  .navigation-link{
+    font-size: 10px;
+  }
+
+  .header__navigation-container{
+    width: 54px;
+    height: 26px;
+    border-radius: 3px;
+    margin-left: 14px;
+  }
+
+  .header__burger-container{
+    width: 100vw;
+  }
+
+  .header__navigation-black{
+    margin: 144px auto 420px;
+    width: 300px;
+  }
+
+  .header__burger-cross{
+    right: 19px;
+    top: 19px;
+  }
+  
+  .header__movies-link{
+    margin-bottom: 24px;
+  }
+}
